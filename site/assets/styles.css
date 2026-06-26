@@ -254,9 +254,6 @@ h2 {
 }
 
 .round-column h3 {
-  position: sticky;
-  top: 64px;
-  z-index: 1;
   margin: 0 0 10px;
   border-bottom: 3px solid var(--gold);
   padding: 10px 2px;
