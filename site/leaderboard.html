@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Leaderboard | DLG FIFA World Cup Pickems</title>
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body data-page="leaderboard">
+    <header class="site-header compact">
+      <nav class="nav-shell" aria-label="Primary navigation">
+        <a class="brand" href="index.html">DLG Pickems</a>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a aria-current="page" href="leaderboard.html">Leaderboard</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="leaderboard-main">
+      <section class="section-shell">
+        <div class="leaderboard-title">
+          <h1>Leaderboard</h1>
+          <p id="leaderboard-updated" class="muted"></p>
+        </div>
+        <div class="table-wrap">
+          <table class="leaderboard-table">
+            <thead>
+              <tr>
+                <th scope="col">Rank</th>
+                <th scope="col">Participant</th>
+                <th scope="col">Total Score</th>
+              </tr>
+            </thead>
+            <tbody id="leaderboard-body"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <script src="assets/app.js"></script>
+  </body>
+</html>
+

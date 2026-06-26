@@ -1,0 +1,2320 @@
+{
+  "generatedAt": "2026-06-26T19:37:23+00:00",
+  "participantCount": 5,
+  "sources": [
+    {
+      "file": "World_Cup_2026_Pickem_Bracket_ScoreCard.xlsx",
+      "participants": [
+        "Alex Pusch",
+        "Aaron Hudson",
+        "Elliot Cameron",
+        "Joey Hoke",
+        "Kingsley Dunkley"
+      ],
+      "ignoredSheets": [
+        "Results",
+        "Teams"
+      ]
+    }
+  ],
+  "matchPickCells": {
+    "74": "C9",
+    "77": "C11",
+    "73": "C13",
+    "75": "C15",
+    "83": "C17",
+    "84": "C19",
+    "81": "C21",
+    "82": "C23",
+    "76": "C25",
+    "78": "C27",
+    "79": "C29",
+    "80": "C31",
+    "86": "C33",
+    "88": "C35",
+    "85": "C37",
+    "87": "C39",
+    "89": "D10",
+    "90": "D14",
+    "93": "D18",
+    "94": "D22",
+    "91": "D26",
+    "92": "D30",
+    "95": "D34",
+    "96": "D38",
+    "97": "E11",
+    "98": "E19",
+    "99": "E27",
+    "100": "E35",
+    "101": "F14",
+    "102": "F30",
+    "104": "G19"
+  },
+  "participants": [
+    {
+      "name": "Aaron Hudson",
+      "sheet": "Aaron Hudson",
+      "sourceFile": "World_Cup_2026_Pickem_Bracket_ScoreCard.xlsx",
+      "picks": {
+        "74": {
+          "matchNumber": 74,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C9",
+          "pick": "Germany"
+        },
+        "77": {
+          "matchNumber": 77,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C11",
+          "pick": "France"
+        },
+        "73": {
+          "matchNumber": 73,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C13",
+          "pick": "Canada"
+        },
+        "75": {
+          "matchNumber": 75,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C15",
+          "pick": "Netherlands"
+        },
+        "83": {
+          "matchNumber": 83,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C17",
+          "pick": "Ghana"
+        },
+        "84": {
+          "matchNumber": 84,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C19",
+          "pick": "Uruguay"
+        },
+        "81": {
+          "matchNumber": 81,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C21",
+          "pick": "United States"
+        },
+        "82": {
+          "matchNumber": 82,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C23",
+          "pick": "Iran"
+        },
+        "76": {
+          "matchNumber": 76,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C25",
+          "pick": "Brazil"
+        },
+        "78": {
+          "matchNumber": 78,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C27",
+          "pick": "Senegal"
+        },
+        "79": {
+          "matchNumber": 79,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C29",
+          "pick": "Mexico"
+        },
+        "80": {
+          "matchNumber": 80,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C31",
+          "pick": "England"
+        },
+        "86": {
+          "matchNumber": 86,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C33",
+          "pick": "Argentina"
+        },
+        "88": {
+          "matchNumber": 88,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C35",
+          "pick": "Australia"
+        },
+        "85": {
+          "matchNumber": 85,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C37",
+          "pick": "Switzerland"
+        },
+        "87": {
+          "matchNumber": 87,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C39",
+          "pick": "Norway"
+        },
+        "89": {
+          "matchNumber": 89,
+          "round": "round_of_16",
+          "roundLabel": "Round of 16",
+          "cell": "D10",
+          "pick": "France"
+        },
+        "90": {
+          "matchNumber": 90,
+          "round": "round_of_16",
+          "roundLabel": "Round of 16",
+          "cell": "D14",
+          "pick": "Netherlands"
+        },
+        "93": {
+          "matchNumber": 93,
+          "round": "round_of_16",
+          "roundLabel": "Round of 16",
+          "cell": "D18",
+          "pick": "Uruguay"
+        },
+        "94": {
+          "matchNumber": 94,
+          "round": "round_of_16",
+          "roundLabel": "Round of 16",
+          "cell": "D22",
+          "pick": "Iran"
+        },
+        "91": {
+          "matchNumber": 91,
+          "round": "round_of_16",
+          "roundLabel": "Round of 16",
+          "cell": "D26",
+          "pick": "Brazil"
+        },
+        "92": {
+          "matchNumber": 92,
+          "round": "round_of_16",
+          "roundLabel": "Round of 16",
+          "cell": "D30",
+          "pick": "England"
+        },
+        "95": {
+          "matchNumber": 95,
+          "round": "round_of_16",
+          "roundLabel": "Round of 16",
+          "cell": "D34",
+          "pick": "Argentina"
+        },
+        "96": {
+          "matchNumber": 96,
+          "round": "round_of_16",
+          "roundLabel": "Round of 16",
+          "cell": "D38",
+          "pick": "Norway"
+        },
+        "97": {
+          "matchNumber": 97,
+          "round": "quarterfinals",
+          "roundLabel": "Quarterfinals",
+          "cell": "E11",
+          "pick": "France"
+        },
+        "98": {
+          "matchNumber": 98,
+          "round": "quarterfinals",
+          "roundLabel": "Quarterfinals",
+          "cell": "E19",
+          "pick": "Uruguay"
+        },
+        "99": {
+          "matchNumber": 99,
+          "round": "quarterfinals",
+          "roundLabel": "Quarterfinals",
+          "cell": "E27",
+          "pick": "Brazil"
+        },
+        "100": {
+          "matchNumber": 100,
+          "round": "quarterfinals",
+          "roundLabel": "Quarterfinals",
+          "cell": "E35",
+          "pick": "Argentina"
+        },
+        "101": {
+          "matchNumber": 101,
+          "round": "semifinals",
+          "roundLabel": "Semifinals",
+          "cell": "F14",
+          "pick": "France"
+        },
+        "102": {
+          "matchNumber": 102,
+          "round": "semifinals",
+          "roundLabel": "Semifinals",
+          "cell": "F30",
+          "pick": "Brazil"
+        },
+        "104": {
+          "matchNumber": 104,
+          "round": "final",
+          "roundLabel": "Final",
+          "cell": "G19",
+          "pick": "Brazil"
+        }
+      },
+      "picksByRound": {
+        "round_of_32": [
+          {
+            "matchNumber": 74,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C9",
+            "pick": "Germany"
+          },
+          {
+            "matchNumber": 77,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C11",
+            "pick": "France"
+          },
+          {
+            "matchNumber": 73,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C13",
+            "pick": "Canada"
+          },
+          {
+            "matchNumber": 75,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C15",
+            "pick": "Netherlands"
+          },
+          {
+            "matchNumber": 83,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C17",
+            "pick": "Ghana"
+          },
+          {
+            "matchNumber": 84,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C19",
+            "pick": "Uruguay"
+          },
+          {
+            "matchNumber": 81,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C21",
+            "pick": "United States"
+          },
+          {
+            "matchNumber": 82,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C23",
+            "pick": "Iran"
+          },
+          {
+            "matchNumber": 76,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C25",
+            "pick": "Brazil"
+          },
+          {
+            "matchNumber": 78,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C27",
+            "pick": "Senegal"
+          },
+          {
+            "matchNumber": 79,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C29",
+            "pick": "Mexico"
+          },
+          {
+            "matchNumber": 80,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C31",
+            "pick": "England"
+          },
+          {
+            "matchNumber": 86,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C33",
+            "pick": "Argentina"
+          },
+          {
+            "matchNumber": 88,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C35",
+            "pick": "Australia"
+          },
+          {
+            "matchNumber": 85,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C37",
+            "pick": "Switzerland"
+          },
+          {
+            "matchNumber": 87,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C39",
+            "pick": "Norway"
+          }
+        ],
+        "round_of_16": [
+          {
+            "matchNumber": 89,
+            "round": "round_of_16",
+            "roundLabel": "Round of 16",
+            "cell": "D10",
+            "pick": "France"
+          },
+          {
+            "matchNumber": 90,
+            "round": "round_of_16",
+            "roundLabel": "Round of 16",
+            "cell": "D14",
+            "pick": "Netherlands"
+          },
+          {
+            "matchNumber": 93,
+            "round": "round_of_16",
+            "roundLabel": "Round of 16",
+            "cell": "D18",
+            "pick": "Uruguay"
+          },
+          {
+            "matchNumber": 94,
+            "round": "round_of_16",
+            "roundLabel": "Round of 16",
+            "cell": "D22",
+            "pick": "Iran"
+          },
+          {
+            "matchNumber": 91,
+            "round": "round_of_16",
+            "roundLabel": "Round of 16",
+            "cell": "D26",
+            "pick": "Brazil"
+          },
+          {
+            "matchNumber": 92,
+            "round": "round_of_16",
+            "roundLabel": "Round of 16",
+            "cell": "D30",
+            "pick": "England"
+          },
+          {
+            "matchNumber": 95,
+            "round": "round_of_16",
+            "roundLabel": "Round of 16",
+            "cell": "D34",
+            "pick": "Argentina"
+          },
+          {
+            "matchNumber": 96,
+            "round": "round_of_16",
+            "roundLabel": "Round of 16",
+            "cell": "D38",
+            "pick": "Norway"
+          }
+        ],
+        "quarterfinals": [
+          {
+            "matchNumber": 97,
+            "round": "quarterfinals",
+            "roundLabel": "Quarterfinals",
+            "cell": "E11",
+            "pick": "France"
+          },
+          {
+            "matchNumber": 98,
+            "round": "quarterfinals",
+            "roundLabel": "Quarterfinals",
+            "cell": "E19",
+            "pick": "Uruguay"
+          },
+          {
+            "matchNumber": 99,
+            "round": "quarterfinals",
+            "roundLabel": "Quarterfinals",
+            "cell": "E27",
+            "pick": "Brazil"
+          },
+          {
+            "matchNumber": 100,
+            "round": "quarterfinals",
+            "roundLabel": "Quarterfinals",
+            "cell": "E35",
+            "pick": "Argentina"
+          }
+        ],
+        "semifinals": [
+          {
+            "matchNumber": 101,
+            "round": "semifinals",
+            "roundLabel": "Semifinals",
+            "cell": "F14",
+            "pick": "France"
+          },
+          {
+            "matchNumber": 102,
+            "round": "semifinals",
+            "roundLabel": "Semifinals",
+            "cell": "F30",
+            "pick": "Brazil"
+          }
+        ],
+        "final": [
+          {
+            "matchNumber": 104,
+            "round": "final",
+            "roundLabel": "Final",
+            "cell": "G19",
+            "pick": "Brazil"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Alex Pusch",
+      "sheet": "Alex Pusch",
+      "sourceFile": "World_Cup_2026_Pickem_Bracket_ScoreCard.xlsx",
+      "picks": {
+        "74": {
+          "matchNumber": 74,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C9",
+          "pick": "Germany"
+        },
+        "77": {
+          "matchNumber": 77,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C11",
+          "pick": "France"
+        },
+        "73": {
+          "matchNumber": 73,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C13",
+          "pick": "South Africa"
+        },
+        "75": {
+          "matchNumber": 75,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C15",
+          "pick": "Netherlands"
+        },
+        "83": {
+          "matchNumber": 83,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C17",
+          "pick": "Colombia"
+        },
+        "84": {
+          "matchNumber": 84,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C19",
+          "pick": "Spain"
+        },
+        "81": {
+          "matchNumber": 81,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C21",
+          "pick": "United States"
+        },
+        "82": {
+          "matchNumber": 82,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C23",
+          "pick": "South Korea"
+        },
+        "76": {
+          "matchNumber": 76,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C25",
+          "pick": "Brazil"
+        },
+        "78": {
+          "matchNumber": 78,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C27",
+          "pick": "Norway"
+        },
+        "79": {
+          "matchNumber": 79,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C29",
+          "pick": "Mexico"
+        },
+        "80": {
+          "matchNumber": 80,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C31",
+          "pick": "England"
+        },
+        "86": {
+          "matchNumber": 86,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C33",
+          "pick": "Argentina"
+        },
+        "88": {
+          "matchNumber": 88,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C35",
+          "pick": "Australia"
+        },
+        "85": {
+          "matchNumber": 85,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C37",
+          "pick": "Switzerland"
+        },
+        "87": {
+          "matchNumber": 87,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C39",
+          "pick": "Portugal"
+        },
+        "89": {
+          "matchNumber": 89,
+          "round": "round_of_16",
+          "roundLabel": "Round of 16",
+          "cell": "D10",
+          "pick": "Germany"
+        },
+        "90": {
+          "matchNumber": 90,
+          "round": "round_of_16",
+          "roundLabel": "Round of 16",
+          "cell": "D14",
+          "pick": "Netherlands"
+        },
+        "93": {
+          "matchNumber": 93,
+          "round": "round_of_16",
+          "roundLabel": "Round of 16",
+          "cell": "D18",
+          "pick": "Spain"
+        },
+        "94": {
+          "matchNumber": 94,
+          "round": "round_of_16",
+          "roundLabel": "Round of 16",
+          "cell": "D22",
+          "pick": "United States"
+        },
+        "91": {
+          "matchNumber": 91,
+          "round": "round_of_16",
+          "roundLabel": "Round of 16",
+          "cell": "D26",
+          "pick": "Brazil"
+        },
+        "92": {
+          "matchNumber": 92,
+          "round": "round_of_16",
+          "roundLabel": "Round of 16",
+          "cell": "D30",
+          "pick": "England"
+        },
+        "95": {
+          "matchNumber": 95,
+          "round": "round_of_16",
+          "roundLabel": "Round of 16",
+          "cell": "D34",
+          "pick": "Argentina"
+        },
+        "96": {
+          "matchNumber": 96,
+          "round": "round_of_16",
+          "roundLabel": "Round of 16",
+          "cell": "D38",
+          "pick": "Portugal"
+        },
+        "97": {
+          "matchNumber": 97,
+          "round": "quarterfinals",
+          "roundLabel": "Quarterfinals",
+          "cell": "E11",
+          "pick": "Germany"
+        },
+        "98": {
+          "matchNumber": 98,
+          "round": "quarterfinals",
+          "roundLabel": "Quarterfinals",
+          "cell": "E19",
+          "pick": "Spain"
+        },
+        "99": {
+          "matchNumber": 99,
+          "round": "quarterfinals",
+          "roundLabel": "Quarterfinals",
+          "cell": "E27",
+          "pick": "England"
+        },
+        "100": {
+          "matchNumber": 100,
+          "round": "quarterfinals",
+          "roundLabel": "Quarterfinals",
+          "cell": "E35",
+          "pick": "Argentina"
+        },
+        "101": {
+          "matchNumber": 101,
+          "round": "semifinals",
+          "roundLabel": "Semifinals",
+          "cell": "F14",
+          "pick": "Germany"
+        },
+        "102": {
+          "matchNumber": 102,
+          "round": "semifinals",
+          "roundLabel": "Semifinals",
+          "cell": "F30",
+          "pick": "Argentina"
+        },
+        "104": {
+          "matchNumber": 104,
+          "round": "final",
+          "roundLabel": "Final",
+          "cell": "G19",
+          "pick": "Germany"
+        }
+      },
+      "picksByRound": {
+        "round_of_32": [
+          {
+            "matchNumber": 74,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C9",
+            "pick": "Germany"
+          },
+          {
+            "matchNumber": 77,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C11",
+            "pick": "France"
+          },
+          {
+            "matchNumber": 73,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C13",
+            "pick": "South Africa"
+          },
+          {
+            "matchNumber": 75,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C15",
+            "pick": "Netherlands"
+          },
+          {
+            "matchNumber": 83,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C17",
+            "pick": "Colombia"
+          },
+          {
+            "matchNumber": 84,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C19",
+            "pick": "Spain"
+          },
+          {
+            "matchNumber": 81,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C21",
+            "pick": "United States"
+          },
+          {
+            "matchNumber": 82,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C23",
+            "pick": "South Korea"
+          },
+          {
+            "matchNumber": 76,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C25",
+            "pick": "Brazil"
+          },
+          {
+            "matchNumber": 78,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C27",
+            "pick": "Norway"
+          },
+          {
+            "matchNumber": 79,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C29",
+            "pick": "Mexico"
+          },
+          {
+            "matchNumber": 80,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C31",
+            "pick": "England"
+          },
+          {
+            "matchNumber": 86,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C33",
+            "pick": "Argentina"
+          },
+          {
+            "matchNumber": 88,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C35",
+            "pick": "Australia"
+          },
+          {
+            "matchNumber": 85,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C37",
+            "pick": "Switzerland"
+          },
+          {
+            "matchNumber": 87,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C39",
+            "pick": "Portugal"
+          }
+        ],
+        "round_of_16": [
+          {
+            "matchNumber": 89,
+            "round": "round_of_16",
+            "roundLabel": "Round of 16",
+            "cell": "D10",
+            "pick": "Germany"
+          },
+          {
+            "matchNumber": 90,
+            "round": "round_of_16",
+            "roundLabel": "Round of 16",
+            "cell": "D14",
+            "pick": "Netherlands"
+          },
+          {
+            "matchNumber": 93,
+            "round": "round_of_16",
+            "roundLabel": "Round of 16",
+            "cell": "D18",
+            "pick": "Spain"
+          },
+          {
+            "matchNumber": 94,
+            "round": "round_of_16",
+            "roundLabel": "Round of 16",
+            "cell": "D22",
+            "pick": "United States"
+          },
+          {
+            "matchNumber": 91,
+            "round": "round_of_16",
+            "roundLabel": "Round of 16",
+            "cell": "D26",
+            "pick": "Brazil"
+          },
+          {
+            "matchNumber": 92,
+            "round": "round_of_16",
+            "roundLabel": "Round of 16",
+            "cell": "D30",
+            "pick": "England"
+          },
+          {
+            "matchNumber": 95,
+            "round": "round_of_16",
+            "roundLabel": "Round of 16",
+            "cell": "D34",
+            "pick": "Argentina"
+          },
+          {
+            "matchNumber": 96,
+            "round": "round_of_16",
+            "roundLabel": "Round of 16",
+            "cell": "D38",
+            "pick": "Portugal"
+          }
+        ],
+        "quarterfinals": [
+          {
+            "matchNumber": 97,
+            "round": "quarterfinals",
+            "roundLabel": "Quarterfinals",
+            "cell": "E11",
+            "pick": "Germany"
+          },
+          {
+            "matchNumber": 98,
+            "round": "quarterfinals",
+            "roundLabel": "Quarterfinals",
+            "cell": "E19",
+            "pick": "Spain"
+          },
+          {
+            "matchNumber": 99,
+            "round": "quarterfinals",
+            "roundLabel": "Quarterfinals",
+            "cell": "E27",
+            "pick": "England"
+          },
+          {
+            "matchNumber": 100,
+            "round": "quarterfinals",
+            "roundLabel": "Quarterfinals",
+            "cell": "E35",
+            "pick": "Argentina"
+          }
+        ],
+        "semifinals": [
+          {
+            "matchNumber": 101,
+            "round": "semifinals",
+            "roundLabel": "Semifinals",
+            "cell": "F14",
+            "pick": "Germany"
+          },
+          {
+            "matchNumber": 102,
+            "round": "semifinals",
+            "roundLabel": "Semifinals",
+            "cell": "F30",
+            "pick": "Argentina"
+          }
+        ],
+        "final": [
+          {
+            "matchNumber": 104,
+            "round": "final",
+            "roundLabel": "Final",
+            "cell": "G19",
+            "pick": "Germany"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Elliot Cameron",
+      "sheet": "Elliot",
+      "sourceFile": "World_Cup_2026_Pickem_Bracket_ScoreCard.xlsx",
+      "picks": {
+        "74": {
+          "matchNumber": 74,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C9",
+          "pick": "Germany"
+        },
+        "77": {
+          "matchNumber": 77,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C11",
+          "pick": "France"
+        },
+        "73": {
+          "matchNumber": 73,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C13",
+          "pick": "Canada"
+        },
+        "75": {
+          "matchNumber": 75,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C15",
+          "pick": "Netherlands"
+        },
+        "83": {
+          "matchNumber": 83,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C17",
+          "pick": "Portugal"
+        },
+        "84": {
+          "matchNumber": 84,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C19",
+          "pick": "Spain"
+        },
+        "81": {
+          "matchNumber": 81,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C21",
+          "pick": "United States"
+        },
+        "82": {
+          "matchNumber": 82,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C23",
+          "pick": "Uruguay"
+        },
+        "76": {
+          "matchNumber": 76,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C25",
+          "pick": "Brazil"
+        },
+        "78": {
+          "matchNumber": 78,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C27",
+          "pick": "Norway"
+        },
+        "79": {
+          "matchNumber": 79,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C29",
+          "pick": "Mexico"
+        },
+        "80": {
+          "matchNumber": 80,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C31",
+          "pick": "England"
+        },
+        "86": {
+          "matchNumber": 86,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C33",
+          "pick": "Argentina"
+        },
+        "88": {
+          "matchNumber": 88,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C35",
+          "pick": "Belgium"
+        },
+        "85": {
+          "matchNumber": 85,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C37",
+          "pick": "Switzerland"
+        },
+        "87": {
+          "matchNumber": 87,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C39",
+          "pick": "Colombia"
+        },
+        "89": {
+          "matchNumber": 89,
+          "round": "round_of_16",
+          "roundLabel": "Round of 16",
+          "cell": "D10",
+          "pick": "France"
+        },
+        "90": {
+          "matchNumber": 90,
+          "round": "round_of_16",
+          "roundLabel": "Round of 16",
+          "cell": "D14",
+          "pick": "Netherlands"
+        },
+        "93": {
+          "matchNumber": 93,
+          "round": "round_of_16",
+          "roundLabel": "Round of 16",
+          "cell": "D18",
+          "pick": "Spain"
+        },
+        "94": {
+          "matchNumber": 94,
+          "round": "round_of_16",
+          "roundLabel": "Round of 16",
+          "cell": "D22",
+          "pick": "United States"
+        },
+        "91": {
+          "matchNumber": 91,
+          "round": "round_of_16",
+          "roundLabel": "Round of 16",
+          "cell": "D26",
+          "pick": "Brazil"
+        },
+        "92": {
+          "matchNumber": 92,
+          "round": "round_of_16",
+          "roundLabel": "Round of 16",
+          "cell": "D30",
+          "pick": "England"
+        },
+        "95": {
+          "matchNumber": 95,
+          "round": "round_of_16",
+          "roundLabel": "Round of 16",
+          "cell": "D34",
+          "pick": "Argentina"
+        },
+        "96": {
+          "matchNumber": 96,
+          "round": "round_of_16",
+          "roundLabel": "Round of 16",
+          "cell": "D38",
+          "pick": "Colombia"
+        },
+        "97": {
+          "matchNumber": 97,
+          "round": "quarterfinals",
+          "roundLabel": "Quarterfinals",
+          "cell": "E11",
+          "pick": "France"
+        },
+        "98": {
+          "matchNumber": 98,
+          "round": "quarterfinals",
+          "roundLabel": "Quarterfinals",
+          "cell": "E19",
+          "pick": "Spain"
+        },
+        "99": {
+          "matchNumber": 99,
+          "round": "quarterfinals",
+          "roundLabel": "Quarterfinals",
+          "cell": "E27",
+          "pick": "England"
+        },
+        "100": {
+          "matchNumber": 100,
+          "round": "quarterfinals",
+          "roundLabel": "Quarterfinals",
+          "cell": "E35",
+          "pick": "Argentina"
+        },
+        "101": {
+          "matchNumber": 101,
+          "round": "semifinals",
+          "roundLabel": "Semifinals",
+          "cell": "F14",
+          "pick": "France"
+        },
+        "102": {
+          "matchNumber": 102,
+          "round": "semifinals",
+          "roundLabel": "Semifinals",
+          "cell": "F30",
+          "pick": "Argentina"
+        },
+        "104": {
+          "matchNumber": 104,
+          "round": "final",
+          "roundLabel": "Final",
+          "cell": "G19",
+          "pick": "France"
+        }
+      },
+      "picksByRound": {
+        "round_of_32": [
+          {
+            "matchNumber": 74,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C9",
+            "pick": "Germany"
+          },
+          {
+            "matchNumber": 77,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C11",
+            "pick": "France"
+          },
+          {
+            "matchNumber": 73,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C13",
+            "pick": "Canada"
+          },
+          {
+            "matchNumber": 75,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C15",
+            "pick": "Netherlands"
+          },
+          {
+            "matchNumber": 83,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C17",
+            "pick": "Portugal"
+          },
+          {
+            "matchNumber": 84,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C19",
+            "pick": "Spain"
+          },
+          {
+            "matchNumber": 81,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C21",
+            "pick": "United States"
+          },
+          {
+            "matchNumber": 82,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C23",
+            "pick": "Uruguay"
+          },
+          {
+            "matchNumber": 76,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C25",
+            "pick": "Brazil"
+          },
+          {
+            "matchNumber": 78,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C27",
+            "pick": "Norway"
+          },
+          {
+            "matchNumber": 79,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C29",
+            "pick": "Mexico"
+          },
+          {
+            "matchNumber": 80,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C31",
+            "pick": "England"
+          },
+          {
+            "matchNumber": 86,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C33",
+            "pick": "Argentina"
+          },
+          {
+            "matchNumber": 88,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C35",
+            "pick": "Belgium"
+          },
+          {
+            "matchNumber": 85,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C37",
+            "pick": "Switzerland"
+          },
+          {
+            "matchNumber": 87,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C39",
+            "pick": "Colombia"
+          }
+        ],
+        "round_of_16": [
+          {
+            "matchNumber": 89,
+            "round": "round_of_16",
+            "roundLabel": "Round of 16",
+            "cell": "D10",
+            "pick": "France"
+          },
+          {
+            "matchNumber": 90,
+            "round": "round_of_16",
+            "roundLabel": "Round of 16",
+            "cell": "D14",
+            "pick": "Netherlands"
+          },
+          {
+            "matchNumber": 93,
+            "round": "round_of_16",
+            "roundLabel": "Round of 16",
+            "cell": "D18",
+            "pick": "Spain"
+          },
+          {
+            "matchNumber": 94,
+            "round": "round_of_16",
+            "roundLabel": "Round of 16",
+            "cell": "D22",
+            "pick": "United States"
+          },
+          {
+            "matchNumber": 91,
+            "round": "round_of_16",
+            "roundLabel": "Round of 16",
+            "cell": "D26",
+            "pick": "Brazil"
+          },
+          {
+            "matchNumber": 92,
+            "round": "round_of_16",
+            "roundLabel": "Round of 16",
+            "cell": "D30",
+            "pick": "England"
+          },
+          {
+            "matchNumber": 95,
+            "round": "round_of_16",
+            "roundLabel": "Round of 16",
+            "cell": "D34",
+            "pick": "Argentina"
+          },
+          {
+            "matchNumber": 96,
+            "round": "round_of_16",
+            "roundLabel": "Round of 16",
+            "cell": "D38",
+            "pick": "Colombia"
+          }
+        ],
+        "quarterfinals": [
+          {
+            "matchNumber": 97,
+            "round": "quarterfinals",
+            "roundLabel": "Quarterfinals",
+            "cell": "E11",
+            "pick": "France"
+          },
+          {
+            "matchNumber": 98,
+            "round": "quarterfinals",
+            "roundLabel": "Quarterfinals",
+            "cell": "E19",
+            "pick": "Spain"
+          },
+          {
+            "matchNumber": 99,
+            "round": "quarterfinals",
+            "roundLabel": "Quarterfinals",
+            "cell": "E27",
+            "pick": "England"
+          },
+          {
+            "matchNumber": 100,
+            "round": "quarterfinals",
+            "roundLabel": "Quarterfinals",
+            "cell": "E35",
+            "pick": "Argentina"
+          }
+        ],
+        "semifinals": [
+          {
+            "matchNumber": 101,
+            "round": "semifinals",
+            "roundLabel": "Semifinals",
+            "cell": "F14",
+            "pick": "France"
+          },
+          {
+            "matchNumber": 102,
+            "round": "semifinals",
+            "roundLabel": "Semifinals",
+            "cell": "F30",
+            "pick": "Argentina"
+          }
+        ],
+        "final": [
+          {
+            "matchNumber": 104,
+            "round": "final",
+            "roundLabel": "Final",
+            "cell": "G19",
+            "pick": "France"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Joey Hoke",
+      "sheet": "Joey Hoke",
+      "sourceFile": "World_Cup_2026_Pickem_Bracket_ScoreCard.xlsx",
+      "picks": {
+        "74": {
+          "matchNumber": 74,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C9",
+          "pick": "Germany"
+        },
+        "77": {
+          "matchNumber": 77,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C11",
+          "pick": "France"
+        },
+        "73": {
+          "matchNumber": 73,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C13",
+          "pick": "Canada"
+        },
+        "75": {
+          "matchNumber": 75,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C15",
+          "pick": "Netherlands"
+        },
+        "83": {
+          "matchNumber": 83,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C17",
+          "pick": "Ghana"
+        },
+        "84": {
+          "matchNumber": 84,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C19",
+          "pick": "Uruguay"
+        },
+        "81": {
+          "matchNumber": 81,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C21",
+          "pick": "United States"
+        },
+        "82": {
+          "matchNumber": 82,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C23",
+          "pick": "Czechia"
+        },
+        "76": {
+          "matchNumber": 76,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C25",
+          "pick": "Brazil"
+        },
+        "78": {
+          "matchNumber": 78,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C27",
+          "pick": "Senegal"
+        },
+        "79": {
+          "matchNumber": 79,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C29",
+          "pick": "Mexico"
+        },
+        "80": {
+          "matchNumber": 80,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C31",
+          "pick": "England"
+        },
+        "86": {
+          "matchNumber": 86,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C33",
+          "pick": "Argentina"
+        },
+        "88": {
+          "matchNumber": 88,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C35",
+          "pick": "Australia"
+        },
+        "85": {
+          "matchNumber": 85,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C37",
+          "pick": "Switzerland"
+        },
+        "87": {
+          "matchNumber": 87,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C39",
+          "pick": "Norway"
+        },
+        "89": {
+          "matchNumber": 89,
+          "round": "round_of_16",
+          "roundLabel": "Round of 16",
+          "cell": "D10",
+          "pick": "France"
+        },
+        "90": {
+          "matchNumber": 90,
+          "round": "round_of_16",
+          "roundLabel": "Round of 16",
+          "cell": "D14",
+          "pick": "Netherlands"
+        },
+        "93": {
+          "matchNumber": 93,
+          "round": "round_of_16",
+          "roundLabel": "Round of 16",
+          "cell": "D18",
+          "pick": "Ghana"
+        },
+        "94": {
+          "matchNumber": 94,
+          "round": "round_of_16",
+          "roundLabel": "Round of 16",
+          "cell": "D22",
+          "pick": "United States"
+        },
+        "91": {
+          "matchNumber": 91,
+          "round": "round_of_16",
+          "roundLabel": "Round of 16",
+          "cell": "D26",
+          "pick": "Brazil"
+        },
+        "92": {
+          "matchNumber": 92,
+          "round": "round_of_16",
+          "roundLabel": "Round of 16",
+          "cell": "D30",
+          "pick": "Mexico"
+        },
+        "95": {
+          "matchNumber": 95,
+          "round": "round_of_16",
+          "roundLabel": "Round of 16",
+          "cell": "D34",
+          "pick": "Argentina"
+        },
+        "96": {
+          "matchNumber": 96,
+          "round": "round_of_16",
+          "roundLabel": "Round of 16",
+          "cell": "D38",
+          "pick": "Switzerland"
+        },
+        "97": {
+          "matchNumber": 97,
+          "round": "quarterfinals",
+          "roundLabel": "Quarterfinals",
+          "cell": "E11",
+          "pick": "France"
+        },
+        "98": {
+          "matchNumber": 98,
+          "round": "quarterfinals",
+          "roundLabel": "Quarterfinals",
+          "cell": "E19",
+          "pick": "United States"
+        },
+        "99": {
+          "matchNumber": 99,
+          "round": "quarterfinals",
+          "roundLabel": "Quarterfinals",
+          "cell": "E27",
+          "pick": "Brazil"
+        },
+        "100": {
+          "matchNumber": 100,
+          "round": "quarterfinals",
+          "roundLabel": "Quarterfinals",
+          "cell": "E35",
+          "pick": "Argentina"
+        },
+        "101": {
+          "matchNumber": 101,
+          "round": "semifinals",
+          "roundLabel": "Semifinals",
+          "cell": "F14",
+          "pick": "France"
+        },
+        "102": {
+          "matchNumber": 102,
+          "round": "semifinals",
+          "roundLabel": "Semifinals",
+          "cell": "F30",
+          "pick": "Argentina"
+        },
+        "104": {
+          "matchNumber": 104,
+          "round": "final",
+          "roundLabel": "Final",
+          "cell": "G19",
+          "pick": "France"
+        }
+      },
+      "picksByRound": {
+        "round_of_32": [
+          {
+            "matchNumber": 74,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C9",
+            "pick": "Germany"
+          },
+          {
+            "matchNumber": 77,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C11",
+            "pick": "France"
+          },
+          {
+            "matchNumber": 73,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C13",
+            "pick": "Canada"
+          },
+          {
+            "matchNumber": 75,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C15",
+            "pick": "Netherlands"
+          },
+          {
+            "matchNumber": 83,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C17",
+            "pick": "Ghana"
+          },
+          {
+            "matchNumber": 84,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C19",
+            "pick": "Uruguay"
+          },
+          {
+            "matchNumber": 81,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C21",
+            "pick": "United States"
+          },
+          {
+            "matchNumber": 82,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C23",
+            "pick": "Czechia"
+          },
+          {
+            "matchNumber": 76,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C25",
+            "pick": "Brazil"
+          },
+          {
+            "matchNumber": 78,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C27",
+            "pick": "Senegal"
+          },
+          {
+            "matchNumber": 79,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C29",
+            "pick": "Mexico"
+          },
+          {
+            "matchNumber": 80,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C31",
+            "pick": "England"
+          },
+          {
+            "matchNumber": 86,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C33",
+            "pick": "Argentina"
+          },
+          {
+            "matchNumber": 88,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C35",
+            "pick": "Australia"
+          },
+          {
+            "matchNumber": 85,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C37",
+            "pick": "Switzerland"
+          },
+          {
+            "matchNumber": 87,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C39",
+            "pick": "Norway"
+          }
+        ],
+        "round_of_16": [
+          {
+            "matchNumber": 89,
+            "round": "round_of_16",
+            "roundLabel": "Round of 16",
+            "cell": "D10",
+            "pick": "France"
+          },
+          {
+            "matchNumber": 90,
+            "round": "round_of_16",
+            "roundLabel": "Round of 16",
+            "cell": "D14",
+            "pick": "Netherlands"
+          },
+          {
+            "matchNumber": 93,
+            "round": "round_of_16",
+            "roundLabel": "Round of 16",
+            "cell": "D18",
+            "pick": "Ghana"
+          },
+          {
+            "matchNumber": 94,
+            "round": "round_of_16",
+            "roundLabel": "Round of 16",
+            "cell": "D22",
+            "pick": "United States"
+          },
+          {
+            "matchNumber": 91,
+            "round": "round_of_16",
+            "roundLabel": "Round of 16",
+            "cell": "D26",
+            "pick": "Brazil"
+          },
+          {
+            "matchNumber": 92,
+            "round": "round_of_16",
+            "roundLabel": "Round of 16",
+            "cell": "D30",
+            "pick": "Mexico"
+          },
+          {
+            "matchNumber": 95,
+            "round": "round_of_16",
+            "roundLabel": "Round of 16",
+            "cell": "D34",
+            "pick": "Argentina"
+          },
+          {
+            "matchNumber": 96,
+            "round": "round_of_16",
+            "roundLabel": "Round of 16",
+            "cell": "D38",
+            "pick": "Switzerland"
+          }
+        ],
+        "quarterfinals": [
+          {
+            "matchNumber": 97,
+            "round": "quarterfinals",
+            "roundLabel": "Quarterfinals",
+            "cell": "E11",
+            "pick": "France"
+          },
+          {
+            "matchNumber": 98,
+            "round": "quarterfinals",
+            "roundLabel": "Quarterfinals",
+            "cell": "E19",
+            "pick": "United States"
+          },
+          {
+            "matchNumber": 99,
+            "round": "quarterfinals",
+            "roundLabel": "Quarterfinals",
+            "cell": "E27",
+            "pick": "Brazil"
+          },
+          {
+            "matchNumber": 100,
+            "round": "quarterfinals",
+            "roundLabel": "Quarterfinals",
+            "cell": "E35",
+            "pick": "Argentina"
+          }
+        ],
+        "semifinals": [
+          {
+            "matchNumber": 101,
+            "round": "semifinals",
+            "roundLabel": "Semifinals",
+            "cell": "F14",
+            "pick": "France"
+          },
+          {
+            "matchNumber": 102,
+            "round": "semifinals",
+            "roundLabel": "Semifinals",
+            "cell": "F30",
+            "pick": "Argentina"
+          }
+        ],
+        "final": [
+          {
+            "matchNumber": 104,
+            "round": "final",
+            "roundLabel": "Final",
+            "cell": "G19",
+            "pick": "France"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Kingsley Dunkley",
+      "sheet": "Kingsley Dunkley",
+      "sourceFile": "World_Cup_2026_Pickem_Bracket_ScoreCard.xlsx",
+      "picks": {
+        "74": {
+          "matchNumber": 74,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C9",
+          "pick": "Germany"
+        },
+        "77": {
+          "matchNumber": 77,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C11",
+          "pick": "France"
+        },
+        "73": {
+          "matchNumber": 73,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C13",
+          "pick": "Canada"
+        },
+        "75": {
+          "matchNumber": 75,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C15",
+          "pick": "Netherlands"
+        },
+        "83": {
+          "matchNumber": 83,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C17",
+          "pick": "Ghana"
+        },
+        "84": {
+          "matchNumber": 84,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C19",
+          "pick": "Spain"
+        },
+        "81": {
+          "matchNumber": 81,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C21",
+          "pick": "United States"
+        },
+        "82": {
+          "matchNumber": 82,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C23",
+          "pick": "Iran"
+        },
+        "76": {
+          "matchNumber": 76,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C25",
+          "pick": "Brazil"
+        },
+        "78": {
+          "matchNumber": 78,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C27",
+          "pick": "Ivory Coast"
+        },
+        "79": {
+          "matchNumber": 79,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C29",
+          "pick": "Mexico"
+        },
+        "80": {
+          "matchNumber": 80,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C31",
+          "pick": "England"
+        },
+        "86": {
+          "matchNumber": 86,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C33",
+          "pick": "Argentina"
+        },
+        "88": {
+          "matchNumber": 88,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C35",
+          "pick": "Australia"
+        },
+        "85": {
+          "matchNumber": 85,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C37",
+          "pick": "Switzerland"
+        },
+        "87": {
+          "matchNumber": 87,
+          "round": "round_of_32",
+          "roundLabel": "Round of 32",
+          "cell": "C39",
+          "pick": "Norway"
+        },
+        "89": {
+          "matchNumber": 89,
+          "round": "round_of_16",
+          "roundLabel": "Round of 16",
+          "cell": "D10",
+          "pick": "France"
+        },
+        "90": {
+          "matchNumber": 90,
+          "round": "round_of_16",
+          "roundLabel": "Round of 16",
+          "cell": "D14",
+          "pick": "Netherlands"
+        },
+        "93": {
+          "matchNumber": 93,
+          "round": "round_of_16",
+          "roundLabel": "Round of 16",
+          "cell": "D18",
+          "pick": "Spain"
+        },
+        "94": {
+          "matchNumber": 94,
+          "round": "round_of_16",
+          "roundLabel": "Round of 16",
+          "cell": "D22",
+          "pick": "United States"
+        },
+        "91": {
+          "matchNumber": 91,
+          "round": "round_of_16",
+          "roundLabel": "Round of 16",
+          "cell": "D26",
+          "pick": "Brazil"
+        },
+        "92": {
+          "matchNumber": 92,
+          "round": "round_of_16",
+          "roundLabel": "Round of 16",
+          "cell": "D30",
+          "pick": "Mexico"
+        },
+        "95": {
+          "matchNumber": 95,
+          "round": "round_of_16",
+          "roundLabel": "Round of 16",
+          "cell": "D34",
+          "pick": "Argentina"
+        },
+        "96": {
+          "matchNumber": 96,
+          "round": "round_of_16",
+          "roundLabel": "Round of 16",
+          "cell": "D38",
+          "pick": "Norway"
+        },
+        "97": {
+          "matchNumber": 97,
+          "round": "quarterfinals",
+          "roundLabel": "Quarterfinals",
+          "cell": "E11",
+          "pick": "France"
+        },
+        "98": {
+          "matchNumber": 98,
+          "round": "quarterfinals",
+          "roundLabel": "Quarterfinals",
+          "cell": "E19",
+          "pick": "Spain"
+        },
+        "99": {
+          "matchNumber": 99,
+          "round": "quarterfinals",
+          "roundLabel": "Quarterfinals",
+          "cell": "E27",
+          "pick": "Mexico"
+        },
+        "100": {
+          "matchNumber": 100,
+          "round": "quarterfinals",
+          "roundLabel": "Quarterfinals",
+          "cell": "E35",
+          "pick": "Argentina"
+        },
+        "101": {
+          "matchNumber": 101,
+          "round": "semifinals",
+          "roundLabel": "Semifinals",
+          "cell": "F14",
+          "pick": "France"
+        },
+        "102": {
+          "matchNumber": 102,
+          "round": "semifinals",
+          "roundLabel": "Semifinals",
+          "cell": "F30",
+          "pick": "Argentina"
+        },
+        "104": {
+          "matchNumber": 104,
+          "round": "final",
+          "roundLabel": "Final",
+          "cell": "G19",
+          "pick": "France"
+        }
+      },
+      "picksByRound": {
+        "round_of_32": [
+          {
+            "matchNumber": 74,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C9",
+            "pick": "Germany"
+          },
+          {
+            "matchNumber": 77,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C11",
+            "pick": "France"
+          },
+          {
+            "matchNumber": 73,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C13",
+            "pick": "Canada"
+          },
+          {
+            "matchNumber": 75,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C15",
+            "pick": "Netherlands"
+          },
+          {
+            "matchNumber": 83,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C17",
+            "pick": "Ghana"
+          },
+          {
+            "matchNumber": 84,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C19",
+            "pick": "Spain"
+          },
+          {
+            "matchNumber": 81,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C21",
+            "pick": "United States"
+          },
+          {
+            "matchNumber": 82,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C23",
+            "pick": "Iran"
+          },
+          {
+            "matchNumber": 76,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C25",
+            "pick": "Brazil"
+          },
+          {
+            "matchNumber": 78,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C27",
+            "pick": "Ivory Coast"
+          },
+          {
+            "matchNumber": 79,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C29",
+            "pick": "Mexico"
+          },
+          {
+            "matchNumber": 80,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C31",
+            "pick": "England"
+          },
+          {
+            "matchNumber": 86,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C33",
+            "pick": "Argentina"
+          },
+          {
+            "matchNumber": 88,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C35",
+            "pick": "Australia"
+          },
+          {
+            "matchNumber": 85,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C37",
+            "pick": "Switzerland"
+          },
+          {
+            "matchNumber": 87,
+            "round": "round_of_32",
+            "roundLabel": "Round of 32",
+            "cell": "C39",
+            "pick": "Norway"
+          }
+        ],
+        "round_of_16": [
+          {
+            "matchNumber": 89,
+            "round": "round_of_16",
+            "roundLabel": "Round of 16",
+            "cell": "D10",
+            "pick": "France"
+          },
+          {
+            "matchNumber": 90,
+            "round": "round_of_16",
+            "roundLabel": "Round of 16",
+            "cell": "D14",
+            "pick": "Netherlands"
+          },
+          {
+            "matchNumber": 93,
+            "round": "round_of_16",
+            "roundLabel": "Round of 16",
+            "cell": "D18",
+            "pick": "Spain"
+          },
+          {
+            "matchNumber": 94,
+            "round": "round_of_16",
+            "roundLabel": "Round of 16",
+            "cell": "D22",
+            "pick": "United States"
+          },
+          {
+            "matchNumber": 91,
+            "round": "round_of_16",
+            "roundLabel": "Round of 16",
+            "cell": "D26",
+            "pick": "Brazil"
+          },
+          {
+            "matchNumber": 92,
+            "round": "round_of_16",
+            "roundLabel": "Round of 16",
+            "cell": "D30",
+            "pick": "Mexico"
+          },
+          {
+            "matchNumber": 95,
+            "round": "round_of_16",
+            "roundLabel": "Round of 16",
+            "cell": "D34",
+            "pick": "Argentina"
+          },
+          {
+            "matchNumber": 96,
+            "round": "round_of_16",
+            "roundLabel": "Round of 16",
+            "cell": "D38",
+            "pick": "Norway"
+          }
+        ],
+        "quarterfinals": [
+          {
+            "matchNumber": 97,
+            "round": "quarterfinals",
+            "roundLabel": "Quarterfinals",
+            "cell": "E11",
+            "pick": "France"
+          },
+          {
+            "matchNumber": 98,
+            "round": "quarterfinals",
+            "roundLabel": "Quarterfinals",
+            "cell": "E19",
+            "pick": "Spain"
+          },
+          {
+            "matchNumber": 99,
+            "round": "quarterfinals",
+            "roundLabel": "Quarterfinals",
+            "cell": "E27",
+            "pick": "Mexico"
+          },
+          {
+            "matchNumber": 100,
+            "round": "quarterfinals",
+            "roundLabel": "Quarterfinals",
+            "cell": "E35",
+            "pick": "Argentina"
+          }
+        ],
+        "semifinals": [
+          {
+            "matchNumber": 101,
+            "round": "semifinals",
+            "roundLabel": "Semifinals",
+            "cell": "F14",
+            "pick": "France"
+          },
+          {
+            "matchNumber": 102,
+            "round": "semifinals",
+            "roundLabel": "Semifinals",
+            "cell": "F30",
+            "pick": "Argentina"
+          }
+        ],
+        "final": [
+          {
+            "matchNumber": 104,
+            "round": "final",
+            "roundLabel": "Final",
+            "cell": "G19",
+            "pick": "France"
+          }
+        ]
+      }
+    }
+  ]
+}
