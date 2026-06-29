@@ -71,7 +71,7 @@ def build_standings(picks: dict, bracket: dict) -> dict:
     participants = [score_participant(participant, bracket) for participant in picks.get("participants", [])]
     participants.sort(key=lambda row: (-row["totalPoints"], row["name"].casefold()))
 
-        last_score = None
+    last_score = None
     rank = 0
     for participant in participants:
         if participant["totalPoints"] != last_score:
