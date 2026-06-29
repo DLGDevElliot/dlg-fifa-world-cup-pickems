@@ -238,24 +238,48 @@ h2 {
 
 .bracket-scroll {
   overflow-x: auto;
-  padding-bottom: 12px;
+  padding: 0 0 16px;
 }
 
 .bracket-grid {
-  min-width: 1138px;
+  --match-card-height: 146px;
+  --match-gap: 14px;
+  --connector-run: 18px;
+  --connector-color: rgba(5, 63, 53, 0.36);
+  min-width: 1302px;
   display: grid;
-  grid-template-columns:
-    minmax(250px, 1.35fr)
-    minmax(225px, 1.15fr)
-    minmax(205px, 1fr)
-    minmax(205px, 1fr)
-    minmax(205px, 1fr);
-  gap: 12px;
+  grid-template-columns: 260px 238px 220px 220px 220px;
+  gap: 36px;
   align-items: start;
 }
 
 .round-column {
+  --round-offset: 0;
+  --round-gap: var(--match-gap);
+  --branch-offset: 80px;
   min-width: 0;
+}
+
+.round-2 {
+  --round-offset: 80px;
+  --round-gap: 174px;
+  --branch-offset: 160px;
+}
+
+.round-3 {
+  --round-offset: 240px;
+  --round-gap: 494px;
+  --branch-offset: 320px;
+}
+
+.round-4 {
+  --round-offset: 560px;
+  --round-gap: 1134px;
+  --branch-offset: 640px;
+}
+
+.round-5 {
+  --round-offset: 1200px;
 }
 
 .round-column h3 {
@@ -269,15 +293,66 @@ h2 {
 
 .match-list {
   display: grid;
-  gap: 10px;
+  gap: var(--round-gap);
+  padding-top: var(--round-offset);
+}
+
+.match-node {
+  position: relative;
+}
+
+.match-node::before,
+.match-node::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  z-index: 0;
+  height: 2px;
+  background: var(--connector-color);
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.match-node.has-prev::before {
+  right: 100%;
+  width: var(--connector-run);
+}
+
+.match-node.has-next::after {
+  left: 100%;
+  width: var(--connector-run);
 }
 
 .match-card {
+  position: relative;
+  z-index: 1;
+  height: var(--match-card-height);
+  display: flex;
+  flex-direction: column;
   border: 1px solid var(--line);
   border-radius: 8px;
-  padding: 12px;
+  padding: 10px 12px;
   background: var(--panel);
   box-shadow: 0 8px 22px rgba(16, 32, 39, 0.07);
+}
+
+.match-node.has-next.pair-top .match-card::after,
+.match-node.has-next.pair-bottom .match-card::after {
+  content: "";
+  position: absolute;
+  left: calc(100% + var(--connector-run));
+  width: 2px;
+  height: var(--branch-offset);
+  background: var(--connector-color);
+  pointer-events: none;
+}
+
+.match-node.has-next.pair-top .match-card::after {
+  top: 50%;
+}
+
+.match-node.has-next.pair-bottom .match-card::after {
+  bottom: 50%;
 }
 
 .match-card.completed {
@@ -331,7 +406,7 @@ h2 {
 }
 
 .venue {
-  margin-top: 10px;
+  margin-top: auto;
   justify-content: flex-start;
 }
 
@@ -442,10 +517,27 @@ h2 {
   .bracket-grid {
     min-width: 0;
     grid-template-columns: 1fr;
+    gap: 18px;
   }
 
   .round-column h3 {
     position: static;
+  }
+
+  .match-list {
+    gap: 10px;
+    padding-top: 0;
+  }
+
+  .match-node::before,
+  .match-node::after,
+  .match-node.has-next .match-card::after {
+    display: none;
+  }
+
+  .match-card {
+    height: auto;
+    min-height: 132px;
   }
 
   .leaderboard-table th,
@@ -453,4 +545,3 @@ h2 {
     padding: 13px 12px;
   }
 }
-
