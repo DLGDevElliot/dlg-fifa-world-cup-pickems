@@ -242,9 +242,14 @@ h2 {
 }
 
 .bracket-grid {
-  min-width: 1080px;
+  min-width: 1138px;
   display: grid;
-  grid-template-columns: 2.1fr 1.75fr 1.35fr 1.1fr 1fr;
+  grid-template-columns:
+    minmax(250px, 1.35fr)
+    minmax(225px, 1.15fr)
+    minmax(205px, 1fr)
+    minmax(205px, 1fr)
+    minmax(205px, 1fr);
   gap: 12px;
   align-items: start;
 }
