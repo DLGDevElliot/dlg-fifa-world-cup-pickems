@@ -90,6 +90,8 @@ MATCH_PICK_CELLS = OrderedDict(
 
 BRACKET_ROUND_ORDER = OrderedDict(
     [
+        # Public bracket progression order. MATCH_PICK_CELLS above keeps the workbook cells
+        # mapped to their official match numbers, even though the sheet order differs.
         ("round_of_32", [74, 77, 73, 75, 83, 84, 81, 82, 76, 78, 79, 80, 86, 88, 85, 87]),
         ("round_of_16", [89, 90, 93, 94, 91, 92, 95, 96]),
         ("quarterfinals", [97, 98, 99, 100]),
@@ -102,4 +104,3 @@ MATCH_ROUND = {}
 for round_key, match_numbers in BRACKET_ROUND_ORDER.items():
     for match_number in match_numbers:
         MATCH_ROUND[match_number] = round_key
-
