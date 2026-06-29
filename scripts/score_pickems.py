@@ -18,6 +18,7 @@ ON_TIME_BONUS_NAMES = {
     "Jake Lish",
     "Joey Hoke",
     "Kingsley Dunkley",
+    "Chris Nelson",
 }
 
 
