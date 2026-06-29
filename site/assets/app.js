@@ -56,6 +56,14 @@ function scoreText(match, side) {
   return value === null || value === undefined ? "" : value;
 }
 
+function orderedMatches(matches) {
+  return [...(matches || [])].sort((first, second) => {
+    const firstNumber = Number(first.matchNumber);
+    const secondNumber = Number(second.matchNumber);
+    return firstNumber - secondNumber;
+  });
+}
+
 function renderTopThree(standings) {
   const container = document.getElementById("top-three");
   if (!container) return;
@@ -84,7 +92,7 @@ function renderBracket(bracket) {
         <section class="round-column" aria-label="${escapeHtml(round.label)}">
           <h3>${escapeHtml(round.label)}</h3>
           <div class="match-list">
-            ${(round.matches || []).map(renderMatch).join("")}
+            ${orderedMatches(round.matches).map(renderMatch).join("")}
           </div>
         </section>
       `,
