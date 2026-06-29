@@ -56,14 +56,6 @@ function scoreText(match, side) {
   return value === null || value === undefined ? "" : value;
 }
 
-function orderedMatches(matches) {
-  return [...(matches || [])].sort((first, second) => {
-    const firstNumber = Number(first.matchNumber);
-    const secondNumber = Number(second.matchNumber);
-    return firstNumber - secondNumber;
-  });
-}
-
 function renderTopThree(standings) {
   const container = document.getElementById("top-three");
   if (!container) return;
@@ -86,13 +78,16 @@ function renderBracket(bracket) {
   const container = document.getElementById("bracket");
   if (!container) return;
 
-  container.innerHTML = (bracket.rounds || [])
+  const rounds = bracket.rounds || [];
+  container.innerHTML = rounds
     .map(
-      (round) => `
-        <section class="round-column" aria-label="${escapeHtml(round.label)}">
+      (round, roundIndex) => `
+        <section class="round-column round-${roundIndex + 1}" aria-label="${escapeHtml(round.label)}">
           <h3>${escapeHtml(round.label)}</h3>
           <div class="match-list">
-            ${orderedMatches(round.matches).map(renderMatch).join("")}
+            ${(round.matches || [])
+              .map((match, matchIndex) => renderMatch(match, matchIndex, roundIndex, rounds.length))
+              .join("")}
           </div>
         </section>
       `,
@@ -105,27 +100,39 @@ function renderBracket(bracket) {
   }
 }
 
-function renderMatch(match) {
+function renderMatch(match, matchIndex = 0, roundIndex = 0, roundCount = 1) {
   const homeWinner = match.winner && match.winner === teamName(match, "home");
   const awayWinner = match.winner && match.winner === teamName(match, "away");
+  const hasPreviousRound = roundIndex > 0;
+  const hasNextRound = roundIndex < roundCount - 1;
+  const connectorClasses = [
+    "match-node",
+    hasPreviousRound ? "has-prev" : "",
+    hasNextRound ? "has-next" : "",
+    hasNextRound ? (matchIndex % 2 === 0 ? "pair-top" : "pair-bottom") : "",
+  ]
+    .filter(Boolean)
+    .join(" ");
   return `
-    <article class="match-card ${match.status}" data-match="${match.matchNumber}">
-      <div class="match-meta">
-        <span>Match ${match.matchNumber}</span>
-        <time datetime="${escapeHtml(match.date)}">${escapeHtml(formatDateTime(match.date))}</time>
-      </div>
-      <div class="team-row ${homeWinner ? "winner" : ""}">
-        <span class="team-abbr">${escapeHtml(teamAbbr(match, "home"))}</span>
-        <span class="team-name">${escapeHtml(teamName(match, "home"))}</span>
-        <span class="score">${escapeHtml(scoreText(match, "home"))}</span>
-      </div>
-      <div class="team-row ${awayWinner ? "winner" : ""}">
-        <span class="team-abbr">${escapeHtml(teamAbbr(match, "away"))}</span>
-        <span class="team-name">${escapeHtml(teamName(match, "away"))}</span>
-        <span class="score">${escapeHtml(scoreText(match, "away"))}</span>
-      </div>
-      <div class="venue">${escapeHtml([match.city, match.country].filter(Boolean).join(", "))}</div>
-    </article>
+    <div class="${connectorClasses}">
+      <article class="match-card ${match.status}" data-match="${match.matchNumber}">
+        <div class="match-meta">
+          <span>Match ${match.matchNumber}</span>
+          <time datetime="${escapeHtml(match.date)}">${escapeHtml(formatDateTime(match.date))}</time>
+        </div>
+        <div class="team-row ${homeWinner ? "winner" : ""}">
+          <span class="team-abbr">${escapeHtml(teamAbbr(match, "home"))}</span>
+          <span class="team-name">${escapeHtml(teamName(match, "home"))}</span>
+          <span class="score">${escapeHtml(scoreText(match, "home"))}</span>
+        </div>
+        <div class="team-row ${awayWinner ? "winner" : ""}">
+          <span class="team-abbr">${escapeHtml(teamAbbr(match, "away"))}</span>
+          <span class="team-name">${escapeHtml(teamName(match, "away"))}</span>
+          <span class="score">${escapeHtml(scoreText(match, "away"))}</span>
+        </div>
+        <div class="venue">${escapeHtml([match.city, match.country].filter(Boolean).join(", "))}</div>
+      </article>
+    </div>
   `;
 }
 
@@ -177,4 +184,3 @@ async function boot() {
 }
 
 boot();
-
