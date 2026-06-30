@@ -61,6 +61,63 @@ function scoreText(match, side) {
   return value;
 }
 
+function allMatches(bracket) {
+  if (Array.isArray(bracket.matches) && bracket.matches.length) return bracket.matches;
+  return (bracket.rounds || []).flatMap((round) => round.matches || []);
+}
+
+function nextUpcomingMatch(bracket, now = new Date()) {
+  return allMatches(bracket)
+    .filter((match) => {
+      const date = new Date(match.date);
+      return !Number.isNaN(date.getTime()) && date > now;
+    })
+    .sort((a, b) => new Date(a.date) - new Date(b.date))[0];
+}
+
+function locationText(match) {
+  return [match.venue, match.city, match.country].filter(Boolean).join(", ");
+}
+
+function renderNextTeam(match, side) {
+  const abbr = teamAbbr(match, side);
+  const name = teamName(match, side);
+  const showName = name && name !== abbr;
+  return `
+    <div class="next-team">
+      <span class="next-team-abbr">${escapeHtml(abbr)}</span>
+      ${showName ? `<span class="next-team-name">${escapeHtml(name)}</span>` : ""}
+    </div>
+  `;
+}
+
+function renderNextMatch(bracket) {
+  const container = document.getElementById("next-match");
+  if (!container) return;
+
+  const match = nextUpcomingMatch(bracket);
+  if (!match) {
+    container.innerHTML = `
+      <div class="next-match-label">Next Match</div>
+      <div class="next-match-empty">No remaining matches</div>
+    `;
+    return;
+  }
+
+  container.innerHTML = `
+    <div class="next-match-label">Next Match</div>
+    <div class="next-match-teams">
+      ${renderNextTeam(match, "home")}
+      <span class="next-match-vs">vs</span>
+      ${renderNextTeam(match, "away")}
+    </div>
+    <div class="next-match-details">
+      <time datetime="${escapeHtml(match.date)}">${escapeHtml(formatDateTime(match.date))}</time>
+      <span>${escapeHtml(locationText(match))}</span>
+    </div>
+  `;
+}
+
 function renderTopThree(standings) {
   const container = document.getElementById("top-three");
   if (!container) return;
@@ -163,7 +220,9 @@ async function bootHome() {
   const updated = document.getElementById("last-updated");
   if (updated) updated.textContent = formatUpdated(standings.generatedAt);
   renderTopThree(standings);
-  renderBracket(bracket);
+renderNextMatch(bracket);
+window.setInterval(() => renderNextMatch(bracket), 60000);
+renderBracket(bracket);
 }
 
 async function bootLeaderboard() {
