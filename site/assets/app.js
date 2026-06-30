@@ -1,3 +1,4 @@
+const POST_MATCH_REFRESH_MINUTES = 150;
 const dataUrl = (file) => `data/${file}`;
 
 async function getJson(file) {
@@ -75,6 +76,13 @@ function nextUpcomingMatch(bracket, now = new Date()) {
     .sort((a, b) => new Date(a.date) - new Date(b.date))[0];
 }
 
+function isCurrentMatch(match, now = new Date()) {
+  const kickoff = new Date(match.date);
+  if (Number.isNaN(kickoff.getTime())) return false;
+  const postGameRefresh = new Date(kickoff.getTime() + POST_MATCH_REFRESH_MINUTES * 60 * 1000);
+  return now >= kickoff && now < postGameRefresh;
+}
+
 function locationText(match) {
   return [match.venue, match.city, match.country].filter(Boolean).join(", ");
 }
@@ -91,11 +99,11 @@ function renderNextTeam(match, side) {
   `;
 }
 
-function renderNextMatch(bracket) {
+function renderNextMatch(bracket, now = new Date()) {
   const container = document.getElementById("next-match");
   if (!container) return;
 
-  const match = nextUpcomingMatch(bracket);
+  const match = nextUpcomingMatch(bracket, now);
   if (!match) {
     container.innerHTML = `
       <div class="next-match-label">Next Match</div>
@@ -136,7 +144,7 @@ function renderTopThree(standings) {
     .join("");
 }
 
-function renderBracket(bracket) {
+function renderBracket(bracket, now = new Date()) {
   const container = document.getElementById("bracket");
   if (!container) return;
 
@@ -148,7 +156,7 @@ function renderBracket(bracket) {
           <h3>${escapeHtml(round.label)}</h3>
           <div class="match-list">
             ${(round.matches || [])
-              .map((match, matchIndex) => renderMatch(match, matchIndex, roundIndex, rounds.length))
+              .map((match, matchIndex) => renderMatch(match, matchIndex, roundIndex, rounds.length, now))
               .join("")}
           </div>
         </section>
@@ -162,9 +170,10 @@ function renderBracket(bracket) {
   }
 }
 
-function renderMatch(match, matchIndex = 0, roundIndex = 0, roundCount = 1) {
+function renderMatch(match, matchIndex = 0, roundIndex = 0, roundCount = 1, now = new Date()) {
   const homeWinner = match.winner && match.winner === teamName(match, "home");
   const awayWinner = match.winner && match.winner === teamName(match, "away");
+  const currentMatch = isCurrentMatch(match, now);
   const hasPreviousRound = roundIndex > 0;
   const hasNextRound = roundIndex < roundCount - 1;
   const connectorClasses = [
@@ -177,7 +186,7 @@ function renderMatch(match, matchIndex = 0, roundIndex = 0, roundCount = 1) {
     .join(" ");
   return `
     <div class="${connectorClasses}">
-      <article class="match-card ${match.status}" data-match="${match.matchNumber}">
+      <article class="match-card ${match.status} ${currentMatch ? "current" : ""}" data-match="${match.matchNumber}">
         <div class="match-meta">
           <span>Match ${match.matchNumber}</span>
           <time datetime="${escapeHtml(match.date)}">${escapeHtml(formatDateTime(match.date))}</time>
@@ -215,14 +224,19 @@ function renderLeaderboard(standings) {
     .join("");
 }
 
+function refreshLiveBracketState(bracket) {
+  const now = new Date();
+  renderNextMatch(bracket, now);
+  renderBracket(bracket, now);
+}
+
 async function bootHome() {
   const [standings, bracket] = await Promise.all([getJson("standings.json"), getJson("bracket.json")]);
   const updated = document.getElementById("last-updated");
   if (updated) updated.textContent = formatUpdated(standings.generatedAt);
   renderTopThree(standings);
-renderNextMatch(bracket);
-window.setInterval(() => renderNextMatch(bracket), 60000);
-renderBracket(bracket);
+  refreshLiveBracketState(bracket);
+  window.setInterval(() => refreshLiveBracketState(bracket), 60000);
 }
 
 async function bootLeaderboard() {
