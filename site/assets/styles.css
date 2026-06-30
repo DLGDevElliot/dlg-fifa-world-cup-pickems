@@ -372,7 +372,7 @@ h2 {
 .team-row {
   min-height: 34px;
   display: grid;
-  grid-template-columns: minmax(44px, 54px) minmax(0, 1fr) 28px;
+  grid-template-columns: minmax(44px, 54px) minmax(0, 1fr) 52px;
   align-items: center;
   gap: 8px;
   margin-top: 8px;
