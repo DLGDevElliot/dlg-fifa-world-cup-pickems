@@ -19,6 +19,7 @@ ON_TIME_BONUS_NAMES = {
     "Joey Hoke",
     "Kingsley Dunkley",
     "Chris Nelson",
+    "Jason Yoo",
 }
 
 
