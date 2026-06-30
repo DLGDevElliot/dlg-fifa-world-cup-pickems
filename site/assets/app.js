@@ -53,7 +53,12 @@ function teamAbbr(match, side) {
 
 function scoreText(match, side) {
   const value = match.score?.[side];
-  return value === null || value === undefined ? "" : value;
+  const penalty = match.score?.[`${side}Penalty`];
+  if (value === null || value === undefined) return "";
+  if (penalty !== null && penalty !== undefined) {
+    return `${value} (${penalty})`;
+  }
+  return value;
 }
 
 function renderTopThree(standings) {
