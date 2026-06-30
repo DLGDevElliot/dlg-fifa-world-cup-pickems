@@ -236,6 +236,87 @@ h2 {
   padding-top: 26px;
 }
 
+.next-match-card {
+  width: min(430px, 100%);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 14px 16px;
+  background: var(--panel);
+  box-shadow: 0 8px 22px rgba(16, 32, 39, 0.07);
+}
+
+.next-match-label {
+  color: var(--deep-green);
+  font-size: 0.74rem;
+  font-weight: 900;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.next-match-teams {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  align-items: center;
+  gap: 10px;
+  margin-top: 9px;
+}
+
+.next-team {
+  min-width: 0;
+}
+
+.next-team:last-child {
+  text-align: right;
+}
+
+.next-team-abbr {
+  display: block;
+  color: var(--ink);
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+.next-team-name,
+.next-match-details,
+.next-match-empty {
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+
+.next-team-name {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.next-match-vs {
+  color: var(--gold);
+  font-size: 0.72rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.next-match-details {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.next-match-details span {
+  min-width: 0;
+  overflow: hidden;
+  text-align: right;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.next-match-empty {
+  margin-top: 8px;
+}
+
 .bracket-scroll {
   overflow-x: auto;
   padding: 0 0 16px;
@@ -510,6 +591,20 @@ h2 {
     align-items: start;
     flex-direction: column;
   }
+
+  .next-match-card {
+  width: 100%;
+}
+
+.next-match-details {
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.next-match-details span {
+  text-align: left;
+}
 
   .podium-grid {
     grid-template-columns: 1fr;
