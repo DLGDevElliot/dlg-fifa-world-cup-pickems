@@ -440,6 +440,12 @@ h2 {
   border-color: rgba(7, 136, 90, 0.45);
 }
 
+.match-card.current {
+  border-color: var(--green);
+  outline: 3px solid var(--green);
+  outline-offset: 2px;
+}
+
 .match-meta,
 .venue {
   display: flex;
@@ -482,9 +488,9 @@ h2 {
 }
 
 .score {
-  white-space: nowrap;
   text-align: right;
   font-weight: 900;
+  white-space: nowrap;
 }
 
 .venue {
@@ -593,18 +599,18 @@ h2 {
   }
 
   .next-match-card {
-  width: 100%;
-}
+    width: 100%;
+  }
 
-.next-match-details {
-  align-items: flex-start;
-  flex-direction: column;
-  gap: 4px;
-}
+  .next-match-details {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 4px;
+  }
 
-.next-match-details span {
-  text-align: left;
-}
+  .next-match-details span {
+    text-align: left;
+  }
 
   .podium-grid {
     grid-template-columns: 1fr;
